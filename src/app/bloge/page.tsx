@@ -1,15 +1,10 @@
 import Section from "@/components/Layout/Main/Section/Section";
 
-export default function Home() {
+export default function Bloge() {
   return (
     <main className="flex-1 max-h-[calc(100vh-96px)] overflow-y-auto bg-base-200 rounded-2xl">
       <Section className=" bg-base-300">
-        <h2 className="text-3xl font-bold text-center my-6">
-          Welcome to Bloger
-        </h2>
-        <p className="text-center text-lg">
-          Discover and share incredible bloges here!
-        </p>
+        <h2 className="text-3xl font-bold text-center my-6">bloge</h2>
       </Section>
 
       <Section className="">

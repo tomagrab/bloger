@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize the scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #323d49; /* base-100 color as track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a01135; /* primary color for the thumb */
+  border-radius: 6px;
+  border: 3px solid #323d49; /* base-100 color as border */
+}
+
+/* Optional: hover styles for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #d60e9a; /* accent color when hovering */
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
