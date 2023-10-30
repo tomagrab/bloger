@@ -1,6 +1,10 @@
 export default function Navbar() {
   return (
+<<<<<<< HEAD
     <div className="w-full navbar bg-base-300">
+=======
+    <div className="w-full navbar bg-secondary">
+>>>>>>> cefb965a59c9396b6d044a3a3d973fed7bc97873
       <div className="navbar-start">
         <label
           htmlFor="drawer"
@@ -22,9 +26,13 @@ export default function Navbar() {
           </svg>
         </label>
       </div>
+<<<<<<< HEAD
       <div className="navbar-center">
         <h1>bloger</h1>
       </div>
+=======
+      <div className="navbar-center">Navbar Title</div>
+>>>>>>> cefb965a59c9396b6d044a3a3d973fed7bc97873
       <div className="navbar-end"></div>
     </div>
   );

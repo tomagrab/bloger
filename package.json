@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "14.0.0",
     "next-auth": "^4.24.4",
+=======
+    "next": "14.0.0",
+>>>>>>> cefb965a59c9396b6d044a3a3d973fed7bc97873
     "react": "^18",
     "react-dom": "^18"
   },

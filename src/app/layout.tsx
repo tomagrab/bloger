@@ -16,7 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
+<<<<<<< HEAD
     <html lang="en" data-theme="business">
+=======
+    <html lang="en">
+>>>>>>> cefb965a59c9396b6d044a3a3d973fed7bc97873
       <body className={inter.className}>
         <Drawer>{children}</Drawer>
       </body>
